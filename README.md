@@ -1,6 +1,6 @@
 # AI-Powered Resume Screening & Job Matching System
-
 A full-stack AI/ML application that parses resumes, analyses job descriptions, produces an **explainable** match score, finds skill gaps, answers career questions with **RAG**, and runs a scored mock interview.
+Live demo:https://resume-ai-platform-hets.onrender.com
 
 ## Problem statement
 Candidates rarely know why a resume is rejected, and keyword-only ATS filters miss semantically relevant profiles. This project combines NLP, embeddings and an LLM-optional assistant to tell a candidate *how well* they match a role, *why*, and *what to do next*.
