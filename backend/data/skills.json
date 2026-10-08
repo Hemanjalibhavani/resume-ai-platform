@@ -1,0 +1,655 @@
+{
+ "skills": {
+  "python": {
+   "category": "language"
+  },
+  "java": {
+   "category": "language",
+   "related": [
+    "spring boot",
+    "kotlin"
+   ]
+  },
+  "javascript": {
+   "category": "language",
+   "aliases": [
+    "js"
+   ]
+  },
+  "typescript": {
+   "category": "language"
+  },
+  "c++": {
+   "category": "language",
+   "aliases": [
+    "cpp"
+   ]
+  },
+  "c#": {
+   "category": "language"
+  },
+  "kotlin": {
+   "category": "language"
+  },
+  "bash": {
+   "category": "language"
+  },
+  "html": {
+   "category": "language"
+  },
+  "css": {
+   "category": "language"
+  },
+  "php": {
+   "category": "language"
+  },
+  "ruby": {
+   "category": "language"
+  },
+  "swift": {
+   "category": "language"
+  },
+  "r": {
+   "category": "language",
+   "aliases": [
+    "r programming"
+   ],
+   "strict": true
+  },
+  "go": {
+   "category": "language",
+   "aliases": [
+    "golang"
+   ],
+   "strict": true
+  },
+  "sql": {
+   "category": "language",
+   "related": [
+    "mysql",
+    "postgresql",
+    "sqlite"
+   ]
+  },
+  "fastapi": {
+   "category": "framework",
+   "related": [
+    "flask",
+    "django"
+   ]
+  },
+  "flask": {
+   "category": "framework",
+   "related": [
+    "fastapi",
+    "django"
+   ]
+  },
+  "django": {
+   "category": "framework",
+   "related": [
+    "flask",
+    "fastapi"
+   ]
+  },
+  "spring boot": {
+   "category": "framework",
+   "related": [
+    "java"
+   ]
+  },
+  "react": {
+   "category": "framework",
+   "aliases": [
+    "reactjs",
+    "react.js"
+   ],
+   "related": [
+    "angular",
+    "javascript"
+   ]
+  },
+  "angular": {
+   "category": "framework",
+   "related": [
+    "react"
+   ]
+  },
+  "node.js": {
+   "category": "framework",
+   "aliases": [
+    "nodejs"
+   ],
+   "related": [
+    "javascript"
+   ]
+  },
+  "express": {
+   "category": "framework"
+  },
+  "bootstrap": {
+   "category": "framework"
+  },
+  "tailwind css": {
+   "category": "framework",
+   "aliases": [
+    "tailwind"
+   ]
+  },
+  "pandas": {
+   "category": "framework"
+  },
+  "numpy": {
+   "category": "framework"
+  },
+  "scikit-learn": {
+   "category": "framework",
+   "aliases": [
+    "sklearn",
+    "scikit learn"
+   ]
+  },
+  "tensorflow": {
+   "category": "framework",
+   "related": [
+    "pytorch",
+    "keras"
+   ]
+  },
+  "pytorch": {
+   "category": "framework",
+   "related": [
+    "tensorflow",
+    "keras"
+   ]
+  },
+  "keras": {
+   "category": "framework",
+   "related": [
+    "tensorflow",
+    "pytorch"
+   ]
+  },
+  "xgboost": {
+   "category": "framework"
+  },
+  "langchain": {
+   "category": "framework",
+   "related": [
+    "llm",
+    "generative ai"
+   ]
+  },
+  "hugging face": {
+   "category": "framework",
+   "aliases": [
+    "huggingface",
+    "transformers library"
+   ]
+  },
+  "spacy": {
+   "category": "framework"
+  },
+  "nltk": {
+   "category": "framework"
+  },
+  "opencv": {
+   "category": "framework",
+   "related": [
+    "computer vision"
+   ]
+  },
+  "streamlit": {
+   "category": "framework"
+  },
+  "mysql": {
+   "category": "database",
+   "related": [
+    "postgresql",
+    "sql",
+    "sqlite"
+   ]
+  },
+  "postgresql": {
+   "category": "database",
+   "aliases": [
+    "postgres"
+   ],
+   "related": [
+    "mysql",
+    "sql"
+   ]
+  },
+  "mongodb": {
+   "category": "database",
+   "aliases": [
+    "mongo"
+   ]
+  },
+  "sqlite": {
+   "category": "database"
+  },
+  "redis": {
+   "category": "database"
+  },
+  "sqlalchemy": {
+   "category": "database"
+  },
+  "faiss": {
+   "category": "database",
+   "related": [
+    "vector database"
+   ]
+  },
+  "chromadb": {
+   "category": "database",
+   "aliases": [
+    "chroma"
+   ],
+   "related": [
+    "vector database"
+   ]
+  },
+  "pinecone": {
+   "category": "database"
+  },
+  "aws": {
+   "category": "cloud_tool",
+   "aliases": [
+    "amazon web services"
+   ],
+   "related": [
+    "azure",
+    "gcp"
+   ]
+  },
+  "azure": {
+   "category": "cloud_tool",
+   "related": [
+    "aws",
+    "gcp"
+   ]
+  },
+  "gcp": {
+   "category": "cloud_tool",
+   "aliases": [
+    "google cloud"
+   ],
+   "related": [
+    "aws",
+    "azure"
+   ]
+  },
+  "docker": {
+   "category": "cloud_tool"
+  },
+  "kubernetes": {
+   "category": "cloud_tool",
+   "aliases": [
+    "k8s"
+   ],
+   "related": [
+    "docker"
+   ]
+  },
+  "ci/cd": {
+   "category": "cloud_tool",
+   "aliases": [
+    "cicd",
+    "continuous integration"
+   ],
+   "related": [
+    "github actions",
+    "jenkins"
+   ]
+  },
+  "jenkins": {
+   "category": "cloud_tool",
+   "related": [
+    "ci/cd",
+    "github actions"
+   ]
+  },
+  "github actions": {
+   "category": "cloud_tool",
+   "related": [
+    "ci/cd",
+    "jenkins"
+   ]
+  },
+  "terraform": {
+   "category": "cloud_tool"
+  },
+  "linux": {
+   "category": "cloud_tool"
+  },
+  "git": {
+   "category": "cloud_tool"
+  },
+  "github": {
+   "category": "cloud_tool"
+  },
+  "power bi": {
+   "category": "cloud_tool",
+   "aliases": [
+    "powerbi"
+   ],
+   "related": [
+    "tableau"
+   ]
+  },
+  "tableau": {
+   "category": "cloud_tool",
+   "related": [
+    "power bi"
+   ]
+  },
+  "excel": {
+   "category": "cloud_tool",
+   "aliases": [
+    "ms excel",
+    "microsoft excel"
+   ]
+  },
+  "apache spark": {
+   "category": "cloud_tool",
+   "aliases": [
+    "spark",
+    "pyspark"
+   ]
+  },
+  "airflow": {
+   "category": "cloud_tool",
+   "aliases": [
+    "apache airflow"
+   ]
+  },
+  "kafka": {
+   "category": "cloud_tool",
+   "aliases": [
+    "apache kafka"
+   ]
+  },
+  "postman": {
+   "category": "cloud_tool"
+  },
+  "jira": {
+   "category": "cloud_tool"
+  },
+  "machine learning": {
+   "category": "concept",
+   "aliases": [
+    "ml"
+   ],
+   "related": [
+    "deep learning",
+    "scikit-learn"
+   ]
+  },
+  "deep learning": {
+   "category": "concept",
+   "aliases": [
+    "neural networks"
+   ],
+   "related": [
+    "tensorflow",
+    "pytorch",
+    "keras"
+   ]
+  },
+  "nlp": {
+   "category": "concept",
+   "aliases": [
+    "natural language processing"
+   ],
+   "related": [
+    "llm",
+    "spacy",
+    "nltk"
+   ]
+  },
+  "computer vision": {
+   "category": "concept",
+   "related": [
+    "opencv",
+    "deep learning"
+   ]
+  },
+  "generative ai": {
+   "category": "concept",
+   "aliases": [
+    "gen ai",
+    "genai",
+    "generative artificial intelligence"
+   ],
+   "related": [
+    "llm",
+    "langchain"
+   ]
+  },
+  "llm": {
+   "category": "concept",
+   "aliases": [
+    "llms",
+    "large language model",
+    "large language models"
+   ],
+   "related": [
+    "generative ai",
+    "nlp",
+    "langchain"
+   ]
+  },
+  "rag": {
+   "category": "concept",
+   "aliases": [
+    "retrieval augmented generation",
+    "retrieval-augmented generation"
+   ],
+   "related": [
+    "vector database",
+    "embeddings",
+    "semantic search"
+   ]
+  },
+  "prompt engineering": {
+   "category": "concept",
+   "aliases": [
+    "prompt design"
+   ]
+  },
+  "embeddings": {
+   "category": "concept",
+   "aliases": [
+    "embedding",
+    "sentence transformers",
+    "sentence-transformers"
+   ],
+   "related": [
+    "semantic search",
+    "vector database"
+   ]
+  },
+  "vector database": {
+   "category": "concept",
+   "aliases": [
+    "vector db",
+    "vector store",
+    "vector databases"
+   ],
+   "related": [
+    "faiss",
+    "chromadb",
+    "embeddings"
+   ]
+  },
+  "semantic search": {
+   "category": "concept",
+   "related": [
+    "embeddings"
+   ]
+  },
+  "data analysis": {
+   "category": "concept",
+   "aliases": [
+    "data analytics",
+    "exploratory data analysis",
+    "eda"
+   ],
+   "related": [
+    "pandas",
+    "excel",
+    "power bi"
+   ]
+  },
+  "data visualization": {
+   "category": "concept",
+   "aliases": [
+    "data visualisation"
+   ],
+   "related": [
+    "power bi",
+    "tableau"
+   ]
+  },
+  "statistics": {
+   "category": "concept"
+  },
+  "feature engineering": {
+   "category": "concept"
+  },
+  "mlops": {
+   "category": "concept",
+   "related": [
+    "docker",
+    "ci/cd"
+   ]
+  },
+  "rest api": {
+   "category": "concept",
+   "aliases": [
+    "rest apis",
+    "restful",
+    "restful api",
+    "restful apis",
+    "rest"
+   ],
+   "related": [
+    "fastapi",
+    "flask",
+    "django"
+   ]
+  },
+  "microservices": {
+   "category": "concept",
+   "aliases": [
+    "microservice"
+   ],
+   "related": [
+    "system design"
+   ]
+  },
+  "system design": {
+   "category": "concept",
+   "related": [
+    "microservices"
+   ]
+  },
+  "data structures": {
+   "category": "concept",
+   "aliases": [
+    "dsa",
+    "data structures and algorithms"
+   ]
+  },
+  "algorithms": {
+   "category": "concept"
+  },
+  "oop": {
+   "category": "concept",
+   "aliases": [
+    "object oriented programming",
+    "object-oriented programming"
+   ]
+  },
+  "etl": {
+   "category": "concept",
+   "aliases": [
+    "data pipelines",
+    "data pipeline"
+   ]
+  },
+  "data engineering": {
+   "category": "concept"
+  },
+  "unit testing": {
+   "category": "concept",
+   "aliases": [
+    "pytest",
+    "unittest",
+    "junit"
+   ]
+  },
+  "agile": {
+   "category": "concept",
+   "aliases": [
+    "scrum"
+   ]
+  },
+  "operating systems": {
+   "category": "concept",
+   "aliases": [
+    "operating system"
+   ]
+  },
+  "dbms": {
+   "category": "concept",
+   "aliases": [
+    "database management systems",
+    "database management system"
+   ],
+   "related": [
+    "sql"
+   ]
+  },
+  "agentic ai": {
+   "category": "concept",
+   "aliases": [
+    "agentic",
+    "ai agents"
+   ],
+   "related": [
+    "generative ai",
+    "llm"
+   ]
+  },
+  "servicenow": {
+   "category": "cloud_tool"
+  },
+  "chart.js": {
+   "category": "framework",
+   "aliases": [
+    "chartjs"
+   ]
+  },
+  "pydantic": {
+   "category": "framework"
+  }
+ },
+ "soft_skills": [
+  "communication",
+  "teamwork",
+  "collaboration",
+  "leadership",
+  "problem solving",
+  "problem-solving",
+  "critical thinking",
+  "time management",
+  "adaptability",
+  "creativity",
+  "analytical",
+  "ownership",
+  "presentation",
+  "mentoring"
+ ]
+}

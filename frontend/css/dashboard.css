@@ -1,0 +1,13 @@
+.chart-box{position:relative;height:260px}
+.chart-box.tall{height:340px}
+.hero{background:linear-gradient(135deg,#1e1b4b,#4f46e5 55%,#7c3aed);color:#fff;border-radius:24px;padding:3rem 2rem;text-align:center}
+.hero h1{font-size:2.6rem;margin-bottom:.8rem}
+.hero p{max-width:620px;margin:0 auto 1.5rem;color:#e0e7ff;font-size:1.1rem}
+.hero .btn-line{background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.4);padding:.65rem 1.2rem}
+.landing{max-width:1100px;margin:0 auto;padding:1.5rem}
+.landing nav{display:flex;justify-content:space-between;align-items:center;padding:.5rem 0 1.5rem}
+.feat{padding:1.2rem;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}
+.feat i{color:var(--p1);font-size:1.4rem;margin-bottom:.6rem}
+.gap-card{border-left:4px solid var(--p1);padding:1rem 1.2rem}
+.gap-card.HIGH{border-color:var(--bad)}.gap-card.MEDIUM{border-color:var(--warn)}.gap-card.LOW{border-color:#0284c7}
+.lbl-best{color:#166534;font-weight:700}.lbl-rec{color:#92400e;font-weight:700}.lbl-need{color:#991b1b;font-weight:700}

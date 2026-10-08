@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Career Assistant · ResumeAI</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/dashboard.css"><link rel="stylesheet" href="css/responsive.css">
+</head><body>
+<main id="page"><div class="page-head"><div><h1>AI Career Assistant</h1><p class="muted">Answers are grounded in your resume, job description and analysis (RAG).</p></div></div>
+ <div class="card-x"><div class="chips"><button class="chip">What skills am I missing?</button><button class="chip">Why is my match score low?</button><button class="chip">Which project should I add?</button><button class="chip">Am I suitable for this job?</button><button class="chip">How can I improve my resume?</button><button class="chip">What should I learn first?</button><button class="chip">Explain my resume.</button></div>
+  <div class="chat"><div class="msgs" id="msgs"></div><div style="display:flex;gap:.6rem;margin-top:.6rem"><input type="text" id="q" placeholder="Ask about your resume or career..." maxlength="1000"><button class="btn-grad" id="send"><i class="fa-solid fa-paper-plane"></i></button></div></div></div></main>
+<script src="js/app.js"></script>
+<script src="js/assistant.js"></script>
+</body></html>

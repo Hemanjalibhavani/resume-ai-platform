@@ -1,0 +1,4 @@
+# Optional: neural embeddings + FAISS vector index (large download, needs ~1.5 GB disk / 1 GB RAM).
+# pip install -r requirements.txt -r requirements-ai.txt
+sentence-transformers>=3.0
+faiss-cpu>=1.8

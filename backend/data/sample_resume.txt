@@ -1,0 +1,65 @@
+Gandikota Hemanjali Bhavani
+Eluru, Andhra Pradesh, India | +91 00000 00000 | your.email@example.com | LinkedIn | GitHub
+Professional Summary
+B.Tech Artificial Intelligence and Machine Learning student seeking an entry-level Software Development Engineer
+role. Strong foundation in Python, Java, Data Structures and Algorithms, Object-Oriented Programming, SQL, and
+problem solving, with hands-on experience in machine learning, REST API development, and deploying web applications.
+Education
+Ramachandra College of Engineering, Vatluru
+2023 – 2027
+B.Tech – Artificial Intelligence and Machine Learning (Pursuing)
+CGPA: 8.91
+NRI Junior College, Eluru
+2021 – 2023
+Intermediate
+CGPA: 94.1
+St. Augustine’s EM High School, Pedapadu
+2021
+SSC
+CGPA: 98
+Internship Experience
+Talent Trek E-Learning (AWS Partner Network)
+Jun 2025 – Sep 2025
+Machine Learning Intern
+- Developed and evaluated machine learning models using Python, following workflows for data preprocessing, model
+training, testing, and performance evaluation.
+- Prepared datasets and analyzed model outputs to assess prediction performance and identify areas for improvement.
+- Applied classification and evaluation techniques and documented results for technical analysis and presentation.
+Projects
+AI-Powered Real-Time Online Payment Fraud Detection & Risk Analysis System
+Live Demo
+- Built an end-to-end fraud detection web application on 1M+ transactions (0.11% fraud), handling class imbalance
+with stratified splits and class weights, plus engineered balance-mismatch and account-emptied features.
+- Compared Logistic Regression, Random Forest, and XGBoost; the selected model reached PR-AUC 0.98, preci-
+sion 0.99, and recall 0.98 on a held-out test set, with a tuned decision threshold and a shared preprocessing module for
+training/serving consistency.
+- Developed a FastAPI backend with Pydantic validation, SQLite storage, and 7 REST API endpoints, an interactive
+Chart.js dashboard, and deployed it using Docker on Render.
+Interactive Quiz Game
+HTML, CSS, JavaScript
+- Developed a responsive quiz application using HTML, CSS, and JavaScript with multiple categories, difficulty levels, timed
+questions, and dynamic scoring.
+- Implemented lifelines, streaks, achievements, multimedia elements, and event-driven JavaScript interactions.
+- Designed reusable logic for question management, timer control, scoring, and game-state handling.
+Blog Platform Website
+HTML, CSS, JavaScript
+- Developed a responsive blog platform using HTML, CSS, and JavaScript for creating, managing, and displaying blog
+content.
+- Implemented interactive frontend components and JavaScript-based functionality for a structured, user-friendly experience.
+- Focused on responsive design and clean content organization across screen sizes.
+Technical Skills
+Programming: Python, Java (Basics)
+Core CS: Data Structures & Algorithms, Object-Oriented Programming (OOP), Operating Systems, Problem Solving
+AI/ML: Machine Learning, Artificial Intelligence, Generative AI, XGBoost, scikit-learn, Pandas, NumPy
+Backend & Web: FastAPI, REST APIs, HTML, CSS, JavaScript
+Database: SQL, SQLite
+Tools: Git, GitHub, VS Code, Docker, Render
+Certifications
+Introduction to Python – Infosys Springboard | Artificial Intelligence Fundamentals – IBM | Machine Learning Internship
+Certificate – AWS | Web Development – AWS | Introduction to Operating Systems – NPTEL | SQL and Database Management
+Systems – EduSkills | ServiceNow Certified System Administrator (CSA) | ServiceNow Certified Application Developer (CAD)
+Extracurricular / Hackathon
+National Level 24-Hour Hackathon – Agentic AI
+Mar 2026
+- Collaborated with a team to design and develop an Agentic AI solution, contributing to solution design, implementation,
+testing, and presentation within 24 hours.

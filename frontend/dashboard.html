@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard · ResumeAI</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/dashboard.css"><link rel="stylesheet" href="css/responsive.css">
+</head><body>
+<main id="page"><div class="page-head"><div><h1>Dashboard</h1><p class="muted">Your career intelligence at a glance.</p></div>
+ <div><a class="btn-grad" href="resume.html"><i class="fa-solid fa-upload"></i> Upload resume</a> <button class="btn-soft" onclick="tryDemo()"><i class="fa-solid fa-wand-magic-sparkles"></i> Try Demo</button></div></div>
+ <div class="grid g4" id="stats"></div><div id="highlights" style="margin-bottom:1rem"></div>
+ <div class="grid g2"><div class="card-x"><h3>Resume Match Scores</h3><div class="chart-box"><canvas id="c-scores"></canvas></div></div>
+  <div class="card-x"><h3>Skills Distribution</h3><div class="chart-box"><canvas id="c-skills"></canvas></div></div>
+  <div class="card-x"><h3>Skill Gap (most frequent missing)</h3><div class="chart-box"><canvas id="c-gap"></canvas></div></div>
+  <div class="card-x"><h3>Jobs Analyzed</h3><div class="chart-box"><canvas id="c-jobs"></canvas></div></div>
+  <div class="card-x"><h3>Match Score History</h3><div class="chart-box"><canvas id="c-history"></canvas></div></div>
+  <div class="card-x"><h3>Interview Performance</h3><div class="chart-box"><canvas id="c-interview"></canvas></div></div></div>
+ <div class="grid g3"><div class="card-x"><h3>Recent resumes</h3><ul class="clean" id="recent-resumes"></ul></div>
+  <div class="card-x"><h3>Recent job analyses</h3><ul class="clean" id="recent-matches"></ul></div>
+  <div class="card-x"><h3>AI recommendations</h3><ul class="clean" id="recs"><li class="muted">Run a job match to get recommendations.</li></ul></div></div>
+ <div class="grid g2"><div class="card-x"><h3><i class="fa-solid fa-user-tie"></i> Interview preparation</h3><p class="muted">Personalised questions from your resume and target job.</p><a class="btn-soft" href="interview.html">Practice now</a></div>
+  <div class="card-x"><h3><i class="fa-solid fa-robot"></i> AI assistant</h3><p class="muted">Ask what to learn, how to improve, or whether you fit a role.</p><a class="btn-soft" href="assistant.html">Ask the assistant</a></div></div></main>
+<script>document.addEventListener('DOMContentLoaded',()=>initDashboard().catch(e=>toast(e.message,'error')));</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/charts.js"></script>
+</body></html>

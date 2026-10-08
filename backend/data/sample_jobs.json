@@ -1,0 +1,27 @@
+[
+ {
+  "id": 1,
+  "title": "Software Developer",
+  "text": "Software Developer\nWe are hiring a Software Developer to build and maintain web applications.\n\nResponsibilities:\n- Design, develop and test backend services and REST APIs\n- Write clean, maintainable code and unit tests\n- Work with SQL databases and optimise queries\n- Collaborate with the team using Git and agile practices\n\nRequirements:\n- Bachelor's degree in Computer Science or related field\n- Strong knowledge of Python or Java, OOP, data structures and algorithms\n- Experience with SQL, REST API development, Git\n- Good communication and teamwork skills\n\nPreferred:\n- Docker, CI/CD, AWS\n- Knowledge of system design\n- 0-1 years of experience, freshers welcome"
+ },
+ {
+  "id": 2,
+  "title": "Backend Developer",
+  "text": "Backend Developer\nBuild scalable APIs and services for our platform.\n\nResponsibilities:\n- Develop REST API services using FastAPI or Flask\n- Design database schemas with PostgreSQL and SQLAlchemy\n- Containerise services with Docker and deploy to AWS\n- Implement authentication, caching and monitoring\n\nRequirements:\n- Bachelor's degree in Engineering\n- Python, FastAPI, REST API, SQL, PostgreSQL, Git\n- Docker and basic understanding of system design\n- 1+ years of experience or strong internships/projects\n- Problem solving and teamwork\n\nNice to have:\n- Kubernetes, Redis, CI/CD, microservices"
+ },
+ {
+  "id": 3,
+  "title": "Data Analyst",
+  "text": "Data Analyst\nTurn data into insights for business teams.\n\nResponsibilities:\n- Clean and analyse datasets using Python, pandas and SQL\n- Build dashboards in Power BI or Tableau\n- Present findings to stakeholders\n\nRequirements:\n- Bachelor's degree\n- SQL, Python, pandas, Excel, data visualization, statistics\n- Power BI or Tableau\n- Strong communication and analytical skills\n\nPreferred:\n- Machine learning basics, ETL, Git\n- 0-2 years of experience"
+ },
+ {
+  "id": 4,
+  "title": "Machine Learning Engineer",
+  "text": "Machine Learning Engineer\nDevelop and deploy production machine learning models.\n\nResponsibilities:\n- Build, train and evaluate machine learning models\n- Perform feature engineering and data processing with pandas and numpy\n- Deploy models as APIs with FastAPI and Docker\n- Monitor models and automate pipelines (MLOps)\n\nRequirements:\n- Bachelor's or Master's degree in AI/ML, Computer Science or related field\n- Python, machine learning, scikit-learn, pandas, numpy, SQL\n- Deep learning with TensorFlow or PyTorch\n- Experience deploying models with Docker\n- Problem solving and communication\n\nPreferred:\n- XGBoost, MLOps, AWS, CI/CD, NLP\n- 1+ years of experience"
+ },
+ {
+  "id": 5,
+  "title": "AI / Generative AI Engineer",
+  "text": "Generative AI Engineer\nBuild LLM-powered products using RAG and agents.\n\nResponsibilities:\n- Design RAG pipelines with embeddings and a vector database\n- Build LLM applications with prompt engineering and LangChain\n- Expose AI features through FastAPI REST APIs\n- Evaluate and reduce hallucinations\n\nRequirements:\n- Bachelor's degree in AI, Computer Science or related field\n- Python, generative AI, LLM, RAG, embeddings, vector database, prompt engineering\n- FastAPI, NLP, Git, Docker\n- Teamwork and communication\n\nPreferred:\n- FAISS, ChromaDB, Hugging Face, AWS, MLOps\n- 0-2 years of experience"
+ }
+]
